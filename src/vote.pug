@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Simple voting system
+    link(rel="stylesheet", href=require("vote.scss"))
+    script(defer src=require("./js/vote.js"))
+
+body
+  main
+    .container
+      h2 Simple voting system
+      .buttons-wrapper
+        .left-wrapper
+          button#option1(value="1") Option 1
+          button#option2(value="2") Option 2
+          button#option3(value="3") Option 3
+          button#option4(value="4") Option 4
+          button#option5(value="5") Option 5
+        .right-wrapper
+          button#option6(value="6") Option 6
+          button#option7(value="7") Option 7
+          button#option8(value="8") Option 8
+          button#option9(value="9") Option 9
+          button#option10(value="10") Option 10
+      .input-wrapper
+        input(type="number", id="id_number", name="id_number", min="1018", max="99999", maxlength="6", pattern="\d{4,5}"
+        placeholder="Enter your ID number, should be >5 symbols")
+        button#submit(disabled) Submit your vote
+        //- span.loading-indicator (Submitting...)
