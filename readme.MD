@@ -11,7 +11,7 @@ extension=pdo_pgsql
 extension=pgsql
 ```
 
-Deploy folder contains database export and php backend to store user ID, user choice and timestamp.
+Deploy folder contains database export and php backend to store user ID, user choice and timestamp when voting happened.
 
 ```
 _deploy
