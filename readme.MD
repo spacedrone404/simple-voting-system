@@ -1,4 +1,4 @@
-Project to test JS/PHP queries in real life tasks.
+Project to test JS/PHP queries in real life tasks. 
 The "Submit Your Vote" button becomes active only after you select one of the options
 and enter a unique number of more than 5 digits (not letters).
 
