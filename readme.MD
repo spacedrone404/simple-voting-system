@@ -10,3 +10,10 @@ Also you should not forget to setup PHP environment in your phph.ini.
 extension=pdo_pgsql
 extension=pgsql
 ```
+
+```
+_deploy
+```
+Contains database export and php backend to store user ID, user choice and timestamp.
+
+
