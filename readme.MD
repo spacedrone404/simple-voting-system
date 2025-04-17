@@ -3,7 +3,8 @@ The "Submit Your Vote" button becomes active only after you select one of the op
 and enter a unique number of more than 5 digits (not letters).
 
 <p align="center">
-  <img src="assets/voting-system.png">
+  <img src="assets/voting-system1.png">
+  <img src="assets/voting-system2.png">
 </p>
 
 To make things rolling you should setup PostgreSQL database with the name "voting".
