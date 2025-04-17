@@ -17,5 +17,13 @@ Deploy folder contains database export and php backend to store user ID, user ch
 _deploy
 ```
 
+Database init
 
-
+```
+CREATE TABLE public.votebase (
+    id SERIAL PRIMARY KEY,
+    id_answer INTEGER NULL,
+    id_number INTEGER NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL
+);
+```
